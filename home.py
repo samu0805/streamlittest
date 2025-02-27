@@ -1,5 +1,5 @@
 import streamlit as st
-from gpt_wrapper import gpt_wrapper_message
+from gpt_wraper import gpt_wraper_message
 
 # Titulo de la aplicacion
 st.title("GPT Wrapper")
