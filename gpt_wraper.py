@@ -17,4 +17,4 @@ def gpt_wraper_message(prompt):
         ]
     )
 
-    print(completion.choices[0].message.content)
+    st.write(completion.choices[0].message.content)
