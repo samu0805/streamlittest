@@ -16,7 +16,7 @@ st.subheader("Interactua con LLMs")
 prompt = st.text_input("Escribe tu mensaje")
 
 if st.button("Enviar"):
-    gpt_wrapper_message(prompt)
+    gpt_wraper_message(prompt)
     st.success("Respuesta generada")
 else:
     st.warning("Envia tu mensaje")
